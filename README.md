@@ -1,16 +1,16 @@
-# Web Sockets Example
+### Web Sockets Example on how to use web sockets
 
-## To install application navigate to the root directory of the project and run
+To install application navigate to the root directory of the project and run
 
 ```
 npm install
 ```
-## To execute code navigate to the root directory of the project
-### Lanuch server
+To execute code navigate to the root directory of the project
+##### Lanuch server
 ```
 node server\ws.js
 ```
-### Launch client
+##### Launch client
 ```
 gulp
 ```
