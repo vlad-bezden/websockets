@@ -14,7 +14,7 @@ node server\ws.js
 ```
 gulp
 ```
-it will open app in a default browser. Open another browser window and open
+it will open app in a default browser. Open another browser window and enter in url address
 ```
 localhost:8000
 ```
