@@ -1,0 +1,15 @@
+ input {
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    border: 1px solid grey;
+    margin: 3px 0;
+  }
+  button {
+    border-radius: 5px;
+    font-size: 14px;
+    background: #189ac4;
+    color: white;
+    border: none;
+    padding: 3px 14px;
+  }

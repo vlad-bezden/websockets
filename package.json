@@ -1,0 +1,22 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "Example on how to use web sockets. It provides both client and server examples",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websockets",
+    "web sockets",
+    "websocket",
+    "web socket",
+    "socket"
+  ],
+  "author": "Vlad Bezden",
+  "license": "ISC"
+}

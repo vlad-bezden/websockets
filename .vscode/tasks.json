@@ -1,0 +1,43 @@
+// {
+//     "version": "0.1.0",
+//     "command": "explorer",
+//     "windows": {
+//         "command": "explorer.exe"
+//     },
+//     "args": [
+//         ".\\public\\index.html"
+//     ],
+//     "tasks": [
+        // {
+        //     "taskName": "webserver",
+        //     "isBuildCommand": true,
+        //     "showOutput": "always"
+        // },
+        // {
+        //     "taskName": "kill",
+        //     "isBuildCommand": true,
+        //     "showOutput": "always"
+        // }
+//     ]
+// }
+
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "webserver",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "kill",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}
