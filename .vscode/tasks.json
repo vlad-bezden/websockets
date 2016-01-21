@@ -1,10 +1,18 @@
 {
     "version": "0.1.0",
-    "command": "explorer",
-    "windows": {
-        "command": "explorer.exe"
-    },
+    "command": "gulp",
+    "isShellCommand": true,
     "args": [
-        ".\\public\\index.html"
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "run"
+            ],
+            "suppressTaskName": true,
+            "isBuildCommand": true
+        }
     ]
 }
